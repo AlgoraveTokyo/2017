@@ -183,6 +183,7 @@ h1 {
     width: 100%;
     max-width: 1280px;
     height: 100%;
+    left: 50%;
   }
 
   .container {
