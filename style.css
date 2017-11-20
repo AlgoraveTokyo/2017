@@ -45,7 +45,7 @@ h4 {
 .container {
   width: 1280px;
   max-width: 980px;
-  padding-bottom: 90px; 
+  padding-bottom: 60px; 
   position: relative;
   margin: 0 auto;
   display: block;
@@ -93,15 +93,28 @@ h4 {
   padding: 12px;
 }
 
-#map {
+.gmap {
+  color: #fff;
+  margin: 0 auto; 
+  width: 1280px;
+  height: 580px;
+}
+
+.gmap h3{
   margin: 0 auto;
+  max-width: 980px;
+}
+
+#map {
+  color: #000;
+  margin-top: 40px;
   width: 1280px;
   height: 580px;
 }
 
 .about_algorave {
   margin: 0 auto;
-  padding-top: 80px;
+  padding-top: 180px;
   max-width: 980px;
   color: #fff;
 }

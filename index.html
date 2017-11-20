@@ -110,9 +110,15 @@
         </div>
       </div>
     </div>
-    <div id="map"></div>
+
+    <div class="gmap">
+      <h3>Access:</h3>
+      <div id="map">
+    </div>
+      
+    </div>
     <div class="about_algorave">
-      <h3>Whant's Algorave?</h3>
+      <h3>About Algorave:</h3>
       <p>
         Algoraveは「条件式の繰り返しを絶え間なく送り出していくことで全面的ないしは全般的に特徴付けられた音」によって作られる。昨今では、エレクトロニック・ミュージックの殆どがソフトウェアを使って作られるが、ソフトウェアのアルゴリズムを作る人と音楽を作る人との間には人為的な障壁が存在する。アルゴリズムによる音楽やヴィジュアルを作るために設計されたIXI Lang、puredata、Max/MSP、SuperCollider、Extempore、Fluxus、TidalCycles、Gibber、Sonic Pi、FoxDotそしてCyrilといったシステムを使うことにより、その障壁は崩され、ミュージシャンは自分たちの音楽をアルゴリズムとして作曲し、そのまま生演奏することができる。このことには良い面と悪い面があるが、異なったアプローチは興味深い状況へと導いてくれる。
       </p>
@@ -130,7 +136,7 @@
   <script>
     function initMap() {
       var pointTam = {lat: 35.703379, lng: 139.736004};
-      var contentString = '<div class="gmp-info"><p class="gmp-info__text">〒162-0825<br/>東京都新宿区神楽坂６丁目４８<br/>TOMOS神楽坂ビルB1F</p><p class="gmp-info__text"><a href="https://goo.gl/maps/kDYMPYSp8Rz" target="_blank" class="gmp-info__link">大きな地図でみる</a></p></div>';
+      var contentString = '<div class="gmp-info"><p class="gmp-info__text">KGR(n)<br/>〒162-0825<br/>東京都新宿区神楽坂６丁目４８<br/>TOMOS神楽坂ビルB1F</p><p class="gmp-info__text"><a href="https://goo.gl/maps/kDYMPYSp8Rz" target="_blank" class="gmp-info__link">大きな地図でみる</a></p></div>';
 
       var map = new google.maps.Map(document.getElementById('map'), {
         zoom: 17,
