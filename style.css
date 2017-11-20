@@ -60,6 +60,21 @@ h4 {
   list-style: none;
 }
 
+.reservation .reservation_btn {
+  display: inline-block;
+  padding: 0.3em 1em;
+  text-decoration: none;
+  color: #67c5ff;
+  border: solid 2px #67c5ff;
+  border-radius: 3px;
+  transition: .25s;
+}
+
+.reservation .reservation_btn:hover {
+  background: #67c5ff;
+  color: white;
+}
+
 .artists ul {
   padding: 0 12px 0 12px;
 }
@@ -69,8 +84,8 @@ h4 {
   padding: 12px;
 }
 
-.map {
-  padding-top: 180px;
+#map {
   margin: 0 auto;
+  height: 600px;
   width: 1280px;
 }
