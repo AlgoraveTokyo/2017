@@ -45,6 +45,7 @@ h4 {
 .container {
   width: 1280px;
   max-width: 980px;
+  padding-bottom: 90px; 
   position: relative;
   margin: 0 auto;
   display: block;
@@ -53,6 +54,14 @@ h4 {
 .container .title {
   margin-top: 280px;
   height: 110px;
+}
+
+.container a{
+  color: #c96a71;
+}
+
+.container a:hover {
+  color: #773b40;
 }
 
 .ticket ul {
@@ -64,14 +73,14 @@ h4 {
   display: inline-block;
   padding: 0.3em 1em;
   text-decoration: none;
-  color: #67c5ff;
-  border: solid 2px #67c5ff;
+  color: #c96a71;
+  border: solid 2px #c96a71;
   border-radius: 3px;
   transition: .25s;
 }
 
 .reservation .reservation_btn:hover {
-  background: #67c5ff;
+  background: #773b40;
   color: white;
 }
 
@@ -86,6 +95,23 @@ h4 {
 
 #map {
   margin: 0 auto;
-  height: 600px;
   width: 1280px;
+  height: 580px;
+}
+
+.social_link {
+  color: #fff;
+  margin: 0 auto;
+  padding-top: 80px;
+  width: 1280px;
+  max-width: 980px;
+  height: 280px; 
+}
+
+.social_link a {
+  color: #fff;
+  padding: 20px 20px 20px 0px;
+}
+.social_link a:hover {
+  color: #ccc;
 }

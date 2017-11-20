@@ -5,14 +5,7 @@
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <title>Algorave Tokyo 2017</title>    
     <link rel="stylesheet" type="text/css" href="./style.css">
-<!--     <script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/30/13/common.js"></script>
-    <script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/30/13/map.js"></script>
-    <script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/30/13/util.js"></script>
-    <script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/30/13/marker.js"></script>
-    <script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/30/13/infowindow.js"></script>
-    <script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/30/13/onion.js"></script>
-    <script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/30/13/controls.js"></script>
-    <script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/30/13/stats.js"></script> -->
+    <script src="https://use.fontawesome.com/5b6649bf84.js"></script>
   </head>
   <body>
       <div class="bg-img">
@@ -33,7 +26,9 @@
           <h3>18:30 開場 / 19:00 開始 / 23:30 閉場</h3>
         </div>
         <div class="place">
-          <h3>@<a href="https://kagurane.com" target="_blank">KGR(n)</a></h3>
+          <h3>@<a href="https://kagurane.com" target="_blank">KGR(n)</a>
+            <span><a href src="https://twitter.com/kgrn_tokyo" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></span>
+          </h3>
         </div>
 
         <div class="ticket">
@@ -116,15 +111,17 @@
       </div>
     </div>
     <div id="map"></div>
+    <div class="social_link">
+      <h3>follow us on:</h3>
+      <a href="https://www.facebook.com/algoravers" target="_blank"><i class="fa fa-facebook-square fa-4x" aria-hidden="true"></i></a>
+      <a href="https://twitter.com/algorave" target="_blank"><i class="fa fa-twitter-square fa-4x" aria-hidden="true"></i></a>
+    </div>
   </body>
   <script>
     function initMap() {
       var pointTam = {lat: 35.6954747, lng: 139.7632313};
       var contentString = '<div class="gmp-info"><p class="gmp-info__text">〒101-0052<br/>東京都千代田区神田小川町3-28-9<br/>三東ビル1F </p><p class="gmp-info__text"><a href="https://goo.gl/maps/Nu7WpQCdS2U2" target="_blank" class="gmp-info__link">大きな地図でみる</a></p></div>';
-      // var styledMapType = new google.maps.StyledMapType(
-      //   , 
-      //     {name: 'Styled Map'}
-      //   );
+
       var map = new google.maps.Map(document.getElementById('map'), {
         zoom: 17,
         center: pointTam,
