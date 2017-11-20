@@ -129,8 +129,8 @@
   </body>
   <script>
     function initMap() {
-      var pointTam = {lat: 35.6954747, lng: 139.7632313};
-      var contentString = '<div class="gmp-info"><p class="gmp-info__text">〒162-0825<br/>東京都 新宿区東京都新宿区神楽坂６丁目<br/>TOMOSビルB１F </p><p class="gmp-info__text"><a href="https://goo.gl/maps/Nu7WpQCdS2U2" target="_blank" class="gmp-info__link">大きな地図でみる</a></p></div>';
+      var pointTam = {lat: 35.703379, lng: 139.736004};
+      var contentString = '<div class="gmp-info"><p class="gmp-info__text">〒162-0825<br/>東京都新宿区神楽坂６丁目４８<br/>TOMOS神楽坂ビルB1F</p><p class="gmp-info__text"><a href="https://goo.gl/maps/kDYMPYSp8Rz" target="_blank" class="gmp-info__link">大きな地図でみる</a></p></div>';
 
       var map = new google.maps.Map(document.getElementById('map'), {
         zoom: 17,
@@ -335,11 +335,9 @@
         position: pointTam,
         map: map
       });
-
       var infowindow = new google.maps.InfoWindow({
         content: contentString
       });
-
       infowindow.open(map, marker);
     }
   </script>
