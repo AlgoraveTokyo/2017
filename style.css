@@ -1,147 +1,260 @@
+
 body {
   margin: 0;
   background-color: #000;
   font-family: Helvetica, nimbussansl, liberationsans, freesans, clean, sans-serif;
 }
+
 h1 {
-  font-size: 80px;
-}
-h2 {
-  font-size: 40px;
-}
-h3 {
-  font-size: 32px;
-}
-h4 {
-  font-size: 23px;
-}
-.main {
-  color: #fff;
-}
+    font-size: 40px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  h3 {
+    font-size: 18px;
+  }
+  h4 {
+    font-size: 14px;
+  }
+  .main {
+    color: #fff;
+  }
 
-.movie {
-  padding-top: 180px;
-  margin: 0 auto;
-  width: 1280px;
-}
+  .movie {
+    padding-top: 20px;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+  }
 
-.bg-img {
-  margin: 0 auto;
-  position: fixed;
-  width: 100%;
-  max-width: 1280px;
-  height: 100%;
-  top: 50%;
-  left: 50%;
-  z-index: -1;
-  transform: translate(-50%, -50%);
-  opacity: 0.4;
-  background-image: url('./images/main.jpg');
-  background-size: cover;
-  /*background-position: center center;*/
-  background-repeat: no-repeat;
-}
+  .movie iframe {
+    max-width: 95%; 
+    height: 240px;
+  }
 
-.container {
-  width: 1280px;
-  max-width: 980px;
-  padding-bottom: 60px; 
-  position: relative;
-  margin: 0 auto;
-  display: block;
-}
+  .bg-img {
+    margin: 0 auto;
+    position: fixed;
+    width: 110%;
+    max-width: 110%;
+    height: 100%;
+    top: 50%;
+    left: 48%;
+    z-index: -1;
+    transform: translate(-50%, -50%);
+    opacity: 0.4;
+    background-image: url('./images/main.jpg');
+    background-size: cover;
+    /*background-position: center center;*/
+    background-repeat: no-repeat;
+  }
 
-.container .title {
-  margin-top: 280px;
-  height: 110px;
-}
+  .container {
+    width: 100%;
+    max-width: 95%;
+    padding-bottom: 20px; 
+    position: relative;
+    margin: 0 auto;
+    display: block;
+  }
 
-.container a{
-  color: #c96a71;
-}
+  .container .title {
+    margin-top: 20px;
+    height: 70px;
+  }
 
-.container a:hover {
-  color: #773b40;
-}
+  .container a{
+    color: #c96a71;
+  }
 
-.ticket ul {
-  padding: 0 12px 0 12px;
-  list-style: none;
-}
+  .container a:hover {
+    color: #773b40;
+  }
 
-.reservation .reservation_btn {
-  display: inline-block;
-  padding: 0.3em 1em;
-  text-decoration: none;
-  color: #c96a71;
-  border: solid 2px #c96a71;
-  border-radius: 3px;
-  transition: .25s;
-}
+  .ticket ul {
+    padding: 0 12px 0 12px;
+    list-style: none;
+  }
 
-.reservation .reservation_btn:hover {
-  background: #773b40;
-  color: white;
-}
+  .reservation .reservation_btn {
+    display: inline-block;
+    padding: 0.3em 1em;
+    text-decoration: none;
+    color: #c96a71;
+    border: solid 2px #c96a71;
+    border-radius: 3px;
+    transition: .25s;
+  }
 
-.artists ul {
-  padding: 0 12px 0 12px;
-}
-.artists ul li {
-  list-style: none;
-  font-size: 32px;
-  padding: 12px;
-}
+  .reservation .reservation_btn:hover {
+    background: #773b40;
+    color: white;
+  }
 
-.gmap {
-  color: #fff;
-  margin: 0 auto; 
-  width: 1280px;
-  height: 580px;
-}
+  .artists ul {
+    padding: 0 12px 0 12px;
+  }
+  .artists ul li {
+    list-style: none;
+    font-size: 22px;
+    padding: 8px;
+  }
 
-.gmap h3{
-  margin: 0 auto;
-  max-width: 980px;
-}
+  .gmap {
+    margin: 0 auto;
+    color: #fff;
+    margin: 0 auto; 
+    width: 95%;
+    height: 220px;
+  }
 
-#map {
-  color: #000;
-  margin-top: 40px;
-  width: 1280px;
-  height: 580px;
-}
+  .gmap h3{
+    margin: 0 auto;
+    max-width: 100%;
+  }
 
-.about_algorave {
-  margin: 0 auto;
-  padding-top: 180px;
-  max-width: 980px;
-  color: #fff;
-}
-.about_algorave p{
-  font-size: 18px;
-}
-.about_algorave a {
-  color: #fff;
-  padding: 20px 20px 20px 0px;
-}
-.about_algorave a:hover {
-  color: #ccc;
-}
+  #map {
+    color: #000;
+    margin-top: 40px;
+    width: 100%;
+    height: 280px;
+  }
 
-.social_link {
-  color: #fff;
-  margin: 0 auto;
-  padding-top: 80px;
-  width: 1280px;
-  max-width: 980px;
-  height: 280px; 
-}
+  .about_algorave {
+    margin: 0 auto;
+    padding-top: 180px;
+    max-width: 95%;
+    color: #fff;
+  }
+  .about_algorave p{
+    font-size: 12px;
+  }
+  .about_algorave a {
+    color: #fff;
+    padding: 20px 20px 20px 0px;
+  }
+  .about_algorave a:hover {
+    color: #ccc;
+  }
 
-.social_link a {
-  color: #fff;
-  padding: 20px 20px 20px 0px;
-}
-.social_link a:hover {
-  color: #ccc;
+  .social_link {
+    color: #fff;
+    margin: 0 auto;
+    padding-top: 20px;
+    width: 100%;
+    max-width: 95%;
+    height: 180px; 
+  }
+
+  .social_link a {
+    color: #fff;
+    padding: 20px 20px 20px 0px;
+  }
+  .social_link a:hover {
+    color: #ccc;
+  }
+
+@media screen and (min-width: 480px) { 
+  h1 {
+    font-size: 80px;
+  }
+  h2 {
+    font-size: 40px;
+  }
+  h3 {
+    font-size: 32px;
+  }
+  h4 {
+    font-size: 23px;
+  }
+
+
+  .movie {
+    width: 1280px;
+  }
+
+  .movie iframe {
+    max-width: 1280px; 
+    height: 760px;
+  }
+
+  .bg-img {
+    width: 100%;
+    max-width: 1280px;
+    height: 100%;
+  }
+
+  .container {
+    width: 1280px;
+    max-width: 980px;
+    padding-bottom: 60px; 
+  }
+
+  .container .title {
+    margin-top: 280px;
+    height: 110px;
+  }
+
+
+  .ticket ul {
+    padding: 0 12px 0 12px;
+  }
+
+  .reservation .reservation_btn {
+    display: inline-block;
+    padding: 0.3em 1em;
+    text-decoration: none;
+    color: #c96a71;
+    border: solid 2px #c96a71;
+    border-radius: 3px;
+    transition: .25s;
+  }
+
+
+  .artists ul {
+    padding: 0 12px 0 12px;
+  }
+  .artists ul li {
+    list-style: none;
+    font-size: 32px;
+    padding: 12px;
+  }
+
+  .gmap {
+    width: 1280px;
+    height: 580px;
+  }
+
+  .gmap h3{
+    max-width: 980px;
+  }
+
+  #map {
+    margin-top: 40px;
+    width: 1280px;
+    height: 580px;
+  }
+
+  .about_algorave {
+    padding-top: 180px;
+    max-width: 980px;
+  }
+  .about_algorave p{
+    font-size: 18px;
+  }
+  .about_algorave a {
+    padding: 20px 20px 20px 0px;
+  }
+
+  .social_link {
+    padding-top: 80px;
+    width: 1280px;
+    max-width: 980px;
+    height: 280px; 
+  }
+
+  .social_link a {
+    padding: 20px 20px 20px 0px;
+  }
 }
