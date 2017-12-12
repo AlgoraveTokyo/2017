@@ -109,9 +109,21 @@ h1 {
     height: 220px;
   }
 
-  .gmap h3{
+  .gmap h3 {
     margin: 0 auto;
-    max-width: 100%;
+    max-width: 980px;
+  }
+
+  .gmap h4 {
+    margin: 0 auto;
+    padding: 0 12px 0 12px;
+    max-width: 980px;
+  }
+
+  .gmap p {
+    margin: 0 auto;
+    padding: 0 12px 0 12px;
+    max-width: 980px;
   }
 
   #map {
